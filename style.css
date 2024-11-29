@@ -21,7 +21,7 @@ body {
 /*Data de hoje*/
 header {
     color: white;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -53,7 +53,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    margin: -3px;
+    margin: -4px;
 }
 
 /*Horário atual*/
