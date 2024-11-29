@@ -87,6 +87,12 @@ section {
         padding: 15px;
     }
 
+    #imagem {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
     #msg {
         font-size: 40pt;
     }
