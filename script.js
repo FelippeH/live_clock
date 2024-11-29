@@ -3,7 +3,7 @@ function carregar() {
 
     const preload = document.getElementById('box');
     if (preload) {
-        preload.style.transition = 'opacity 1s ease';
+        preload.style.transition = 'opacity 1.5s ease';
         preload.style.opacity = '0';
         setTimeout(() => {
             preload.style.display = 'none';
