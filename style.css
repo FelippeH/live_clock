@@ -22,13 +22,13 @@ body {
 header {
     color: white;
     font-size: 0.7rem;
-    margin: 0;
+    margin: -60px 0 30px;;
 }
 
 /*Rodapé*/
 footer {
     color: white;
-    padding-bottom: 60px;
+    padding-top: -6px;
     font: italic 12pt Montserrat;
 }
 
@@ -42,7 +42,6 @@ section {
     height: 100%;
     width: 100%;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.281);
-    margin: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
