@@ -100,13 +100,9 @@ section {
 
 /*Media*/
 @media (max-width: 768px) {
-    body {
-        max-height:90%;
-    }
-
     section {
         max-width: 85%;
-        max-height: 65vh;
+        max-height: 55vh;
         padding: 14px;
     }
 
