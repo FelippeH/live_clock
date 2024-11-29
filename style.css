@@ -28,20 +28,21 @@ header {
 /*Rodapé*/
 footer {
     color: white;
-    padding-top: -7px;
-    font: italic 12pt Montserrat;
+    padding-top: -8px;
+    font: italic 11pt Montserrat;
 }
 
 /*Caixa centralizada*/
 section {
     background: rgba(255, 255, 255, 0.6);
+    margin: calc(env(safe-area-inset-top)) auto calc(env(safe-area-inset-bottom));
+    aspect-ratio: 1 / 1;
     border-radius: 36px;
     max-width: 690px;
     max-height: 690px;
     padding: 0 18px;
     height: 100%;
     width: 100%;
-    margin: 0;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.281);
     display: flex;
     flex-direction: column;
@@ -108,6 +109,10 @@ section {
     header {
         max-width: 82%;
         font-size: 0.7rem;
+    }
+
+    footer {
+        font-size: 0.2rem;
     }
 
     #imagem {

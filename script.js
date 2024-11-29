@@ -56,4 +56,5 @@ function carregar() {
 
     setInterval(horario, 1000);
     horario();
+
 }
