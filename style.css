@@ -49,6 +49,13 @@ section {
     align-items: center;
 }
 
+#fotos img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: -3px;
+}
+
 /*Horário atual*/
 #msg {
     font: bold 66pt Orbitron;
@@ -99,8 +106,8 @@ section {
     }
 
     #imagem {
-        width: 100%;
-        max-width: 100%;
+        width: 90%;
+        max-width: 90%;
         height: auto;
     }
 
