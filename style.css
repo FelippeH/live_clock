@@ -21,7 +21,7 @@ body {
 /*Data de hoje*/
 header {
     color: white;
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin: -60px 0 20px;
 }
 
@@ -107,6 +107,7 @@ section {
 
     header {
         max-width: 82%;
+        font-size: 0.6rem;
     }
 
     #imagem {
