@@ -1,37 +1,93 @@
-body {
-    background: rgb(41, 41, 179);
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
     font: normal 15pt Montserrat;
+    text-align: center; /* Definido aqui, não precisa repetir */
 }
 
+body {
+    background: rgb(255, 255, 255);
+}
+
+/*Data de hoje*/
 header {
     color: white;
-    text-align: center;
     font-size: 23px;
+    margin: 0;
+    padding: 10px;
 }
 
+/*Rodapé*/
+footer {
+    color: white;
+    padding: 10px;
+    font: italic 12pt Montserrat;
+}
+
+/*Caixa centralizada*/
 section {
-    background: white;
+    background: rgba(255, 255, 255, 0.6);
     border-radius: 36px;
-    padding: 20px;
-    width: 620px;
-    height: auto;
+    padding: 14px;
+    width: 670px;
+    height: 670px;
     margin: auto;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.281);
 }
 
-div {
-    text-align: center;
-    padding: 10px;
-}
-
-footer {
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font: italic 12pt Montserrat;
-}
-
+/*Horário atual*/
 #msg {
     font: bold 66pt Orbitron;
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.281);
+    padding-bottom: 14px;
+}
+
+/*Tela de loading*/
+#box {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.preload {
+    width:50px;
+    height:50px;
+    background-color: transparent;
+    border-radius:50%;
+    border: 20px solid rgba(94, 94, 94, 0.466);
+    border-bottom: 20px solid transparent;
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/*Responsividade*/
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #msg {
+        font-size: 40pt;
+    }
 }
