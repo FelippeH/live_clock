@@ -21,9 +21,9 @@ body {
 /*Data de hoje*/
 header {
     color: white;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /*Rodapé*/
@@ -107,7 +107,7 @@ section {
     }
 
     header {
-        max-width: 80%;
+        max-width: 82%;
     }
 
     #imagem {
