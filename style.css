@@ -101,14 +101,19 @@ section {
 /*Media*/
 @media (max-width: 768px) {
     section {
-        width: 90%;
+        max-width: 85%;
+        max-height: 85%;
         padding: 15px;
     }
 
+    header {
+        width: 80%;
+        padding: 20px;
+    }
+
     #imagem {
-        width: 90%;
-        max-width: 90%;
-        height: auto;
+        max-width:85%;
+        max-height: 85%;
     }
 
     #msg {
